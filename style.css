@@ -1,0 +1,50 @@
+
+
+
+.text {
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    text-shadow:10px 10px 10px  rgb(12, 180, 54);
+    text-align: center;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border-radius: 30px;
+    transition: 0.7s ease;
+    
+}
+
+.image:hover{
+    transform: scale(1.1);  
+}
+
+
+.table {
+   border-collapse: collapse;
+   margin: 25px 0;
+   font-size: 0.9em;
+   width: 100%;  
+   box-shadow: 0 5px 25px rgb(12, 180, 54);
+}
+
+.table thead th {
+    background-color: rgb(12, 180, 54);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 25px;    
+}
+
+.table tbody td {
+    background-color: rgb(154, 207, 168);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 25px;    
+    text-align: center;
+}
+
